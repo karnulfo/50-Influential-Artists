@@ -86,20 +86,43 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-.title-container {
-  border: 1px red solid;
+header {
+  border: solid 1px green;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-image: url(C:\Users\aguil\Desktop\lambdassign\50-Influential-Artists\assets\home.png);
-  background-size: cover;
+}
+header nav {
+  width: 30%;
+  border: 1 px solid orange;
+  display: flex;
+  justify-content: space-evenly;
+}
+header a {
+  text-decoration: none  ;
+  color: black;
+  font-size: 1.6rem;
+}
+.title-container {
+  border: 1px red solid;
+}
+.title-container .centered {
   width: 70%;
+  margin-left: 15%;
+  background-image: url('../assets/home.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   height: 60vh;
+}
+.title-container .centered nav {
+  border: green 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .artists-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  margin-left: 15%;
 }
 .artists-container .artist {
   width: 35%;
@@ -110,6 +133,14 @@ video {
   width: 50%;
   border: 2px solid red ;
   border-radius: 20px;
+}
+.artists-container .artist a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: gray;
+}
+.artists-container .artisthover {
+  color: grey;
 }
 .artists-container .artist .bio {
   width: 60%;
