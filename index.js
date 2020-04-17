@@ -257,17 +257,23 @@ function removeArtist(index, zero) {
 
 /* Task 5: Create a function called get20s() that takes data as an argument and returns an array with names of artists who were born the 20th century (1800-1900) */
 
-function get20s(data){
-  let get20 = [...artists]
-    for (let i = 0; i < get20.length; i++)
-    var sliced = get20[i].years.slice(0,4)
-    if (sliced >= 800 && sliced <= 900){
-    return `${get20.name}` 
-  }
+// function get20s(array){
+//   let get20 = [];
+//   let arra2 = [...artists]
+//   for (let i = 0; i < arra2.length; i++)
+//   var sliced = arra2[i].years.slice(0,4)
+// if(sliced >= 800 && sliced <= 900)
+// get20.push(arra2[i].years)
+//   let get20 = [...artists]
+//     for (let i = 0; i < get20.length; i++)
+//     var sliced = get20[i].years.slice(0,4)
+//     if (sliced >= 800 && sliced <= 900){
+//     return `${get20.name}` 
+//   }
   
-  }
+//   }
 
-console.log(get20s(20))
+// console.log(get20s())
 /* Task 6: Create a function called lotsOfArt() that takes artists as an argument and returns an array with names of artists who painted more than 100 paintings */
 
 function lotsOfArt(/* Code here */){
@@ -286,20 +292,47 @@ genre: Web Design,
 nationality: Your Nationality Here
 bio: Add 1-2 sentences (or use lorem ipsum) "*/
 
-function addArtist(/* Code here */){
+function addArtist(id1, name1, years1, genre1, nationality1, bio1){
+  addart = [...artists]
 
-    /* Code here */
-
+  var obj = {
+    id : id1,
+    name : name1,
+    years1 : years,
+    genre1 : genre,
+    nationality1 : nationality,
+    bio1 : bio
   }
+  addart.push(obj)
+  console.log (addart)
+  return addart
+}
+  console.log(16, 'Kevin', 21, 'Male', 'U.S.A', 'loremipsu aksjdkasdkas jkadaksd kasdkajsdk jasdk jdaksjd kasjdk as')
+ 
+  //   let addart = [...artists]
+  //   let input = [
+
+  //   ]
+  //   addart.push()
+
+
+  //   /* Code here */
+
+  // }
 
 
 /* Task 8: Create a function called `checkArtist` that accepts a string (name of an artist) and checks if that artist is in the dataset. */
 
-function checkArtist(/* Code here */){
+// function checkArtist(name){
+//     const getart = [...artists]
+//     if(getart(name).name === getart.name){
+//       return `${getart.name} does exist`
+//     }else {
+//       return `It does not exist.`
+//     }
 
-    /* Code here */
-
-  }
+//   }
+//   console.log(checkArtist('El Greco'))
 
 
 
