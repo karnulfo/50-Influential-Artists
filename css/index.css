@@ -87,13 +87,13 @@ video {
   vertical-align: baseline;
 }
 header {
-  border: solid 1px green;
+
   display: flex;
   justify-content: center;
 }
 header nav {
   width: 30%;
-  border: 1 px solid orange;
+
   display: flex;
   justify-content: space-evenly;
 }
@@ -102,9 +102,7 @@ header a {
   color: black;
   font-size: 1.6rem;
 }
-.title-container {
-  border: 1px red solid;
-}
+
 .title-container .centered {
   width: 70%;
   margin-left: 15%;
@@ -114,7 +112,6 @@ header a {
   height: 60vh;
 }
 .title-container .centered nav {
-  border: green 1px solid;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -126,12 +123,12 @@ header a {
 }
 .artists-container .artist {
   width: 35%;
-  border: 2px solid red ;
+
   border: 20px;
 }
 .artists-container .artist img {
   width: 50%;
-  border: 2px solid red ;
+
   border-radius: 20px;
 }
 .artists-container .artist a {
